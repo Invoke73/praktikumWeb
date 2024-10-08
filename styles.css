@@ -1,0 +1,183 @@
+/* Logo Font: Italianno */
+.logo {
+    font-family: 'Italianno', cursive;
+    font-size: 36px;
+  }
+  
+  /* Navbar Links: Inter */
+  .nav-link, .btn-dark {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* content: Inter */
+
+  h2, h3 {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h2 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  /* Content: Roboto */
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #6c757d;
+  }
+  
+ /* Hero Section Styling */
+.hero-section {
+    background-image: url('hero-image.svg'); /* Add the path to your image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust the height as needed */
+    color: white;
+    padding: 0 20px;
+    display: flex;
+  }
+  
+  .hero-section .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .hero-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .hero-section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      height: auto; /* Make the section height flexible on mobile */
+      padding: 50px 20px; /* Add padding for mobile */
+    }
+  
+    .hero-section h2 {
+      font-size: 28px;
+    }
+  
+    .hero-section p {
+      font-size: 16px;
+    }
+  }
+  
+  
+  /* Features Section */
+  .features-section {
+    background-color: #fff;
+  }
+  
+  .features-section h3 {
+    margin-top: 20px;
+  }
+  
+  .features-section p {
+    color: #6c757d;
+  }
+
+  .delivery {
+    background-color: #cccccc;
+    border-radius: 80%;
+    
+  }
+  
+  /* Cards Section */
+  .cards-section {
+    background-color: #f8f9fa;
+  }
+  
+  .card img {
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card {
+    box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.29);  
+    border-style: none;
+    border-radius: 10%;
+  }
+  
+  /* Carousel Section */
+  .carousel-section img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .slide p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+  }
+
+/* Footer Styling */
+.footer-section {
+    background-color: #f8f9fa; /* Light gray background */
+    border-top: 1px solid #e0e0e0; /* Subtle top border */
+  }
+  
+  .footer-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    font-family: 'Italianno', cursive;
+    font-size: 24px;
+    color: #6c757d; /* Gray color */
+  }
+  
+  .footer-left span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #6c757d;
+    margin-left: 10px;
+  }
+
+  .footer-left .footer-logo {
+    font-family: 'italianno', cursive;
+    font-size: 25px;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .footer-right a {
+    color: #6c757d; /* Gray for social media icons */
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .footer-right a:hover {
+    color: #000; /* Darker color on hover */
+  }
+  
+  
+  
